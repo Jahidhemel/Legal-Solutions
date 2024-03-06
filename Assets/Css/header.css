@@ -1,0 +1,42 @@
+.Toppanel{
+    max-width:100vw;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15%;
+}
+
+.header > .mainMenu > ul {
+    display:flex;
+    align-items: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header > .mainMenu > ul > li {
+    list-style: none;
+}
+
+.header > .mainMenu > ul > li > a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: rgb(65, 64, 64);
+    font-weight: 500;
+}
+
+.logodiv > img {max-width: 150px;} 
+
+.topbutton > a > button{
+    color: white;
+    background:#b68c5a;
+    height: 40px;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    
+}
+
+
